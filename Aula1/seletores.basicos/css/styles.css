@@ -1,0 +1,28 @@
+h1{
+    color: crimson;
+    text-decoration: line-through;
+}
+#unico{
+    color: darkolivegreen;
+    text-decoration-line: overline;
+}
+.conjunto{
+    color: darkorange;
+    font-family: monospace;
+    text-align: center;
+}
+.sessao1{
+    background-color: lightslategrey;
+}
+.sessao1 img{
+    width: 450px;
+}
+.sessao1 h3{
+    text-align: center; font-weight: bold;
+}
+.sessao1 p{
+    font-style:italic;
+}
+body{
+    background-color: rgb(202, 197, 139);
+}
