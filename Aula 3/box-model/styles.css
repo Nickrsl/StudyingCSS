@@ -1,0 +1,30 @@
+.box1{
+    /*todos os lados*/
+    background-color: cornflowerblue;
+    padding:2rem;
+    margin:1rem;
+}
+
+.box2{
+    /*top, right, bottom, left*/
+    background-color: darkolivegreen;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.box3{
+    /*width, style, color*/
+    /*solid, dashed, dotted, double, outset, inset*/
+    background-color: goldenrod;
+    border: 0.25rem double black;
+    padding-left: 2.5rem;
+}
+.box4{
+    background-color: darkkhaki;
+    margin: 0.5rem;
+    padding: 2rem;
+    border: 0.25rem dashed chocolate;
+    width:10rem;
+    height: 60rem;
+    box-sizing: border-box;/*fazer com que conte a borda e o padding contem na width, não apenas o conteúdo*/
+}
