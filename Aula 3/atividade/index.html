@@ -1,67 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Cadastro</title>
-</head>
-<body>
-    <center><h1>Cadastre-se!</h1>
-    <form action="" method="get">
-        <fieldset>
-            <legend>Informações Pessoais</legend>
-        
-        <label for="nome">Nome completo:</label>
-        <input type="text" name="nome" id="nome" maxlength="200" required><br><br>
-        
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required><br><br>
-        
-        <label for="senha">Senha:</label>
-        <input type="password" name="senha" id="senha" pattern="[0-9]{8,16}" required><br><br>
-        </fieldset>
-        
-        <fieldset>
-            <legend>Informações de Endereço</legend>
-        <label for="uf">UF:</label>
-        <select name="uf" id="uf" required>
-            <option disabled selected>Selecione um Estado</option>
-            <option value="SP">SP</option>
-            <option value="RJ">RJ</option>
-            <option value="CE">CE</option>
-            <option value="PR">PR</option>
-            <option value="BH">BH</option>
-            <option value="RS">RS</option>
-            <option value="RN">RN</option>
-        </select><br><br>
-        
-        <label for="cidade">Cidade:</label>
-        <input type="text" name="cidade" id="cidade" required><br><br>
-        
-        <label for="rua">Rua:</label>
-        <input type="text" name="rua" id="rua" required><br><br>
-        
-        <label for="num">Número:</label>
-        <input type="text" name="num" id="num" required><br><br>
-        
-        <label for="cep">CEP:</label>
-        <input type="text" name="cep" id="cep" required><br><br>
-        
-        <label for="bio">Bio:</label>
-        <textarea name="bio" id="bio" cols="30" rows="5" placeholder="Diga mais sobre você" required></textarea><br><br>
-        
-        <label for="">Área de atuação:</label>
-        <input list="atuação" />
-        <datalist id="atuação">
-            <option value="Fullstack">
-            <option value="Cloud">
-            <option value="Ambos">
-            <option value="Outro">
-        </datalist>
-        </fieldset>
-        <button type="reset">Limpar</button>
-        <button type="submit">Cadastrar</button><br><br>
-        Já possui nosso cadastro? Faça o login: <br>
-        <button><a href="login.html" target="_blank">Log-in</a></button></center>
-    </form>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Brazil Gossips</title>
+        <link rel="stylesheet" href="/Aula 3/atividade/styles.css">
+    </head>
+    <body>
+        <h1 id="inicio">Brazil Gossips</h1>
+        <header>
+            <nav>
+                <a href="#Novelas">Novelas</a> |
+                <a href="#Celebridades">Celebridades</a>
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <ul>
+                    <li>Novelas:</li>
+                        <ul>
+                            <li><a href="#a1">Rei do Gado</a></li>
+                            <li><a href="#a2">Chocolate com Pimenta</a></li>
+                            <li><a href="#a3">Terra e Paixão</a></li>
+                        </ul>
+                    <li>Celebridades:</li>
+                        <ul>
+                            <li><a href="#a4">Nacionais</a></li>
+                            <li><a href="#a5">Internacionais</a></li>
+                        </ul>
+                </ul>
+            </aside>
+            <section id="s1">
+                <h2 id="Novelas">Novelas</h2>
+                    <h3 id="a1">Rei do Gado</h3>
+                        <p>
+                            Novo software CollaboraTI facilita colaboração na área de TI, permitindo equipes trabalharem de forma eficiente e coordenada, mesmo remotamente. Interface intuitiva e recursos avançados impulsionam o gerenciamento de projetos na indústria de tecnologia da informação.
+                        </p>
+                        <button><a href="#inicio"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBO7EHdJCF-6ALohqY99U6ICjUnChEHlFjk-_8Tz3Nf9QRJDqw4aAw3TYfbxJgS_877Tk&usqp=CAU" width="20"></a></button>
+                    <h3 id="a2">Chocolate com Pimenta</h3>
+                        <p>
+                            A empresa de TI XPTech anunciou o lançamento do HyperDrive, um dispositivo de armazenamento de alta velocidade. Com transferências de dados de até 20 gigabits por segundo e capacidade de até 2 terabytes, o HyperDrive promete revolucionar o mercado.
+                        </p>
+                        <button><a href="#inicio"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBO7EHdJCF-6ALohqY99U6ICjUnChEHlFjk-_8Tz3Nf9QRJDqw4aAw3TYfbxJgS_877Tk&usqp=CAU" width="20"></a></button>
+                    <h3 id="a3">Terra e Paixão</h3>
+                        <p>
+                            Pesquisadores de TI desenvolvem algoritmo de IA que detecta e previne ameaças cibernéticas, fortalecendo a segurança digital. A ferramenta analisa padrões suspeitos e comportamentos maliciosos, proporcionando uma resposta eficiente contra ataques virtuais.
+                        </p>
+                        <button><a href="#inicio"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBO7EHdJCF-6ALohqY99U6ICjUnChEHlFjk-_8Tz3Nf9QRJDqw4aAw3TYfbxJgS_877Tk&usqp=CAU" width="20"></a></button>
+            </section>
+            <section id="s2">
+                <h2 id="Celebridades">Celebridades</h2>
+                    <h3 id="a4">Nacionais</h3>
+                        <p>
+                            Start-up de tecnologia inaugura espaço de co-working exclusivo para profissionais de TI, oferecendo um ambiente de trabalho inspirador com infraestrutura tecnológica de ponta e oportunidades de networking e colaboração entre especialistas da área. A iniciativa visa impulsionar a inovação e fortalecer a comunidade de TI.
+                        </p>
+                        <button><a href="#inicio"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBO7EHdJCF-6ALohqY99U6ICjUnChEHlFjk-_8Tz3Nf9QRJDqw4aAw3TYfbxJgS_877Tk&usqp=CAU" width="20"></a></button>
+                    <h3 id="a5">Internacionais</h3>
+                        <p>
+                            Grandes empresas de tecnologia, como Google, Microsoft e Facebook, unem forças para promover a inclusão de mulheres na área de TI, investindo em programas de formação e capacitação específicos, além de combater estereótipos de gênero e criar ambientes de trabalho mais inclusivos e respeitosos. A parceria busca ampliar a representatividade feminina e proporcionar oportunidades igualitárias de crescimento e liderança.
+                        </p>
+                        <button><a href="#inicio"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBO7EHdJCF-6ALohqY99U6ICjUnChEHlFjk-_8Tz3Nf9QRJDqw4aAw3TYfbxJgS_877Tk&usqp=CAU" width="20"></a></button>
+            </section>
+    </body>
 </html>

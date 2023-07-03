@@ -1,0 +1,40 @@
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+h1,h2,header{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+h3{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    text-align: justify;
+    font-family: 'Fasthand', cursive;
+}
+body{
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/18744729-fofoca-que-pode-facilmente-editar-ou-modificar-vetor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+li{
+    display: inline;
+}
+ul{
+    padding:0.5rem;
+    margin:0.5rem;
+}
+button:hover{
+    background-color: rgb(0, 119, 255);
+}
+a:hover{
+    color: rgb(211, 190, 0);
+}
+aside, #s1, #s2{
+    border: 0.5rem double black;
+    padding:2rem;
+    margin:1rem;
+}
