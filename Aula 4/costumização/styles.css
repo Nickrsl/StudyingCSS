@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: Arial, sans-serif;
+    /*variável: criar na raiz e colocar -- na frente*/
+    --cor-primaria: #248232;
+    --cor-segundaria: #2d3a3a;
+}
+
+body{
+    padding: 16px;
+}
+
+.btn{
+    border:0;
+    display: block;
+    background-color: var(--cor-primaria);/*referenciar var*/
+    color: white;
+    margin: 2px 0;
+    padding: 8px 16 px;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 120px;
+}
+
+.btn:hover{
+    background-color: var(--cor-segundaria);
+}
+
+hr{
+    border: 1px solid var(--cor-segundaria);
+    margin: 8px 0;
+}
+
+.tabela{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela td, 
+.tabela th{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.tabela th{
+    background-color: #2d3a3a;
+    color: white;
+}
+
+.formulario{
+    background-color: rgb(231, 255, 237);
+    padding: 16px;
+    width: 400px;
+}
+
+.formulario input,
+.formulario select{
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #f4fff5;
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+.formulario .btn{
+    width: 100%;
+}
+
+.grupo{
+    margin-top: 8px;
+    margin-bottom: 8 px;
+}
