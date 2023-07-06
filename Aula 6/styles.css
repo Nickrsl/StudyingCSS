@@ -1,0 +1,25 @@
+/*
+media queries: estilo condicional
+anatomia:
+    @media condição {
+        //estilos a serem aplicados caso a condição seja verdadeira
+    }
+*/
+
+body {
+    background-color: cornflowerblue;
+}
+/*screen = dispositivos de tela*/
+@media screen and (max-width: 599px) {
+    body {
+        background-color: olive;
+        font-family: monospace;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    body {
+        background-color: darkmagenta;
+        font-family: cursive;
+    }
+}
