@@ -10,10 +10,9 @@ html {
     padding: 10px;
     flex-direction: row;/*vertical ou horizontal*/
     flex-wrap: wrap;/*quebra de linha, evitando distorção*/
-    flex-flow: row wrap;/*atalho de flex-direction e wrap*/
-    justify-content:space-between;/*trata o eixo main*/
-    align-items: center;/*trata o eixo cross*/
-    align-content: flex-end;/*não é muito usado*/
+    flex-flow: row wrap;/*atalho de flex-direction e wrap */ 
+    justify-content:space-around;/*trata o eixo main*/
+    align-items: flex-start;/*trata o eixo cross*/
 }
 
 .item-1 {
